@@ -1,5 +1,5 @@
 import { ref, getDownloadURL, uploadBytesResumable } from "firebase/storage";
-import { storage } from "./firebaseconfig";
+import { storage } from './firebaseconfig';
 
 
 export const UploadFile = (blobFile, fileName , isUploadCompleted) => {

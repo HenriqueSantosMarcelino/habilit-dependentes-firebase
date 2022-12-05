@@ -10,11 +10,11 @@ import { Inconsolata_400Regular, Inconsolata_500Medium, Inconsolata_600SemiBold,
 
 
 export default function App() {
-  const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold, Roboto_900Black, Inter_400Regular, Inter_700Bold, Inconsolata_400Regular, Inconsolata_500Medium, Inconsolata_600SemiBold, })
+  /*const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold, Roboto_900Black, Inter_400Regular, Inter_700Bold, Inconsolata_400Regular, Inconsolata_500Medium, Inconsolata_600SemiBold, })
 
   if (!fontsLoaded) {
     return null;
-  }
+  }*/
 
   return (
     <NativeBaseProvider theme={THEME}>
